@@ -1,613 +1,737 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- =====================================================
+     BREAKING NEWS + LATEST STORIES
+====================================================== -->
 
-    <title>GOAL - Football News</title>
+<section class="max-w-[1500px] mx-auto px-4 py-10">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
 
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        goalRed: "#e30613",
-                        goalDark: "#111111",
-                        goalCard: "#1b1b1b",
-                        goalGray: "#242424"
-                    }
-                }
-            }
-        }
-    </script>
-</head>
+        <!-- ==========================================
+             BREAKING NEWS
+        =========================================== -->
 
-<body class="bg-[#111111] text-white">
+        <div class="lg:col-span-1 bg-[#181818] p-5">
 
-    <!-- =====================================================
-         HEADER
-    ====================================================== -->
+            <h2 class="text-2xl sm:text-3xl font-black mb-6">
+                BREAKING NEWS
+            </h2>
 
-    <header class="bg-[#111111] sticky top-0 z-50">
+            <div class="space-y-0">
 
-        <!-- Red line -->
-        <div class="h-[3px] bg-[#e30613]"></div>
+                <!-- Breaking news 1 -->
+                <article class="py-4 border-b border-gray-700">
 
-        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+                    <p class="text-xs text-gray-400 mb-2">
+                        2 minutes ago
+                    </p>
 
-            <div class="h-[72px] flex items-center justify-between">
+                    <h3 class="font-bold text-base leading-snug">
+                        Goretzka reaches agreement and chooses the
+                        Premier League after leaving Bayern on a free transfer
+                    </h3>
 
-                <!-- LOGO -->
-                <a href="#" class="flex items-center shrink-0">
-
-                    <div class="border-2 border-white px-2 py-1">
-                        <span class="text-2xl sm:text-3xl font-black tracking-tighter">
-                            GOAL
-                        </span>
-                    </div>
-
-                </a>
+                </article>
 
 
-                <!-- DESKTOP NAVIGATION -->
-                <nav class="hidden lg:flex items-center gap-6 xl:gap-8 ml-8">
+                <!-- Breaking news 2 -->
+                <article class="py-4 border-b border-gray-700">
 
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        SCORES
-                    </a>
+                    <p class="text-xs text-gray-400 mb-2">
+                        10 minutes ago
+                    </p>
 
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        LATEST
-                    </a>
+                    <h3 class="font-bold text-base leading-snug">
+                        Manchester United make a dramatic start
+                        and go down at promoted Premier League side
+                    </h3>
 
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        NEWS
-                    </a>
-
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        TRANSFERS
-                    </a>
-
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        FEATURES
-                    </a>
-
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        OPINION
-                    </a>
-
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        INDIVISA
-                    </a>
-
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        GOALSTUDIO
-                    </a>
-
-                    <a href="#"
-                       class="text-sm font-bold uppercase hover:text-[#e30613] transition">
-                        SHOP
-                    </a>
-
-                </nav>
+                </article>
 
 
-                <!-- RIGHT SIDE ICONS -->
-                <div class="flex items-center gap-4 ml-auto">
+                <!-- Breaking news 3 -->
+                <article class="py-4 border-b border-gray-700">
 
-                    <!-- Search -->
-                    <button
-                        class="hover:text-[#e30613] transition"
-                        aria-label="Search">
+                    <p class="text-xs text-gray-400 mb-2">
+                        14 minutes ago
+                    </p>
 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-6 h-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2">
+                    <h3 class="font-bold text-base leading-snug">
+                        Serie A statistics: Lautaro chases a historic
+                        figure and Monza challenge their hoodoo against Inter
+                    </h3>
 
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/>
-                        </svg>
-
-                    </button>
+                </article>
 
 
-                    <!-- User -->
-                    <button
-                        class="hidden sm:block hover:text-[#e30613] transition"
-                        aria-label="Profile">
+                <!-- Breaking news 4 -->
+                <article class="py-4 border-b border-gray-700">
 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-6 h-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2">
+                    <p class="text-xs text-gray-400 mb-2">
+                        15 minutes ago
+                    </p>
 
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.5 20.25a7.5 7.5 0 0 1 15 0"/>
-                        </svg>
+                    <h3 class="font-bold text-base leading-snug">
+                        Enrique sparks a French league crisis:
+                        where is the level playing field?
+                    </h3>
 
-                    </button>
+                </article>
 
 
-                    <!-- Mobile menu -->
-                    <button
-                        class="lg:hidden hover:text-[#e30613] transition"
-                        aria-label="Open menu">
+                <!-- Breaking news 5 -->
+                <article class="py-4 border-b border-gray-700">
 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-7 h-7"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2">
+                    <p class="text-xs text-gray-400 mb-2">
+                        57 minutes ago
+                    </p>
 
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M4 6h16M4 12h16M4 18h16"/>
-                        </svg>
+                    <h3 class="font-bold text-base leading-snug">
+                        Cologne make concessions: Curious clause
+                        in El Mala's new contract
+                    </h3>
 
-                    </button>
+                </article>
 
-                </div>
+
+                <!-- Breaking news 6 -->
+                <article class="py-4">
+
+                    <p class="text-xs text-gray-400 mb-2">
+                        1 hour ago
+                    </p>
+
+                    <h3 class="font-bold text-base leading-snug">
+                        Complex negotiations: Bouaddi moves away
+                        from a transfer to Manchester City
+                    </h3>
+
+                </article>
 
             </div>
 
         </div>
-    </header>
 
 
-    <!-- =====================================================
-         HOMEPAGE
-    ====================================================== -->
 
-    <main class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- ==========================================
+             NEWS CARDS
+        =========================================== -->
 
+        <div class="lg:col-span-3">
 
-        <!-- =================================================
-             FEATURED NEWS
-        ================================================== -->
-
-        <section class="pt-6 sm:pt-8">
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
 
 
-                <!-- MAIN STORY -->
+                <!-- CARD 1 -->
 
-                <article
-                    class="lg:col-span-7 relative overflow-hidden rounded-sm bg-[#1b1b1b] group min-h-[400px] sm:min-h-[500px]">
+                <article class="bg-[#303033] overflow-hidden">
 
-                    <img
-                        src="image 1.webp"
-                        alt="Football player"
-                        class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
-
-                    <!-- dark overlay -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
-
-
-                    <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-8">
-
-                        <span class="text-[#e30613] text-xs sm:text-sm font-bold uppercase">
-                            Analysis
-                        </span>
-
-                        <h1
-                            class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight mt-2 max-w-3xl">
-
-                            MBAPPE'S NIKE SPLIT
-                            SIGNALS SEISMIC 
-                            SHIFT FOR BOOT DEALS
-
-                        </h1>
-
-                        <p class="text-gray-300 mt-3 max-w-2xl text-sm sm:text-base">
-
-                        </p>
-
-                        <div class="flex items-center gap-3 mt-4 text-xs text-gray-300">
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- RIGHT STORIES -->
-
-                <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
-
-
-                    <!-- Story 1 -->
-
-                    <article class="relative min-h-[240px] lg:min-h-0 overflow-hidden bg-[#1b1b1b] group">
+                    <div class="h-52">
 
                         <img
-                            src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=900&q=80"
-                            alt="Football stadium"
-                            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500">
-
-                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
-
-                        <div class="absolute bottom-0 p-5">
-
-                            <span class="text-[#e30613] text-xs font-bold uppercase">
-                                Transfers
-                            </span>
-
-                            <h2 class="text-xl sm:text-2xl font-black mt-1 leading-tight">
-
-                                Transfer window heats up as clubs make their moves
-
-                            </h2>
-
-                            <p class="text-gray-300 text-xs mt-2">
-                                45 minutes ago
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Story 2 -->
-
-                    <article class="relative min-h-[240px] lg:min-h-0 overflow-hidden bg-[#1b1b1b] group">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=900&q=80"
-                            alt="Football match"
-                            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500">
-
-                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
-
-                        <div class="absolute bottom-0 p-5">
-
-                            <span class="text-[#e30613] text-xs font-bold uppercase">
-                                Premier League
-                            </span>
-
-                            <h2 class="text-xl sm:text-2xl font-black mt-1 leading-tight">
-
-                                The teams to watch when the new season begins
-
-                            </h2>
-
-                            <p class="text-gray-300 text-xs mt-2">
-                                1 hour ago
-                            </p>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             LATEST NEWS
-        ================================================== -->
-
-        <section class="py-10">
-
-            <div class="flex items-center justify-between border-b border-gray-700 pb-3 mb-5">
-
-                <h2 class="text-2xl sm:text-3xl font-black uppercase">
-                    Latest News
-                </h2>
-
-                <a href="#"
-                   class="text-sm font-bold uppercase text-[#e30613] hover:text-white transition">
-                    See all →
-                </a>
-
-            </div>
-
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-
-
-                <!-- NEWS CARD -->
-
-                <article class="bg-[#1b1b1b] overflow-hidden group">
-
-                    <div class="relative aspect-[16/9] overflow-hidden">
-
-                        <img
-                            src="image.png.jp.2.webp"
-                            alt="Football news"
-                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-
-                    </div>
-
-                    <div class="p-4">
-
-                        <span class="text-[#e30613] text-xs font-bold uppercase">
-                            Analysis . <L class="Messi"></L>
-                        </span>
-
-                        <h3 class="text-lg font-bold mt-2 leading-snug">
-                            How football's biggest stars are turning
-                            to club ownership models
-
-
-                            Investing in clubs has become something of a craze among top
-                            players in recent years as the game has undergone a commercial...
-                        </h3>
-
-                        <p class="text-gray-500 text-xs mt-3">
-                            15 minutes ago
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- NEWS CARD -->
-
-                <article class="bg-[#1b1b1b] overflow-hidden group">
-
-                    <div class="relative aspect-[16/9] overflow-hidden">
-
-                        <img
-                            src="image.png .jp.3.webp"
-                            alt="Football player"
-                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-
-                    </div>
-
-                    <div class="p-4">
-
-                        <span class="text-[#e30613] text-xs font-bold uppercase">
-                            FEATURES
-                        </span>
-
-                        <h3 class="text-lg font-bold mt-2 leading-snug">
-                            From Salah replacements 
-                            to tactics:How AI is changing 
-                            soccer
-                        </h3>
-
-                        <p class="text-gray-500 text-xs mt-3">
-                            32 minutes ago
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- NEWS CARD -->
-
-                <article class="bg-[#1b1b1b] overflow-hidden group">
-
-                    <div class="relative aspect-[16/9] overflow-hidden">
-
-                        <img
-                            src="image.png .jp.4.webp"
-                            alt="Football stadium"
-                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-
-                    </div>
-
-                    <div class="p-4">
-
-                        <span class="text-[#e30613] text-xs font-bold uppercase">
-                            Opinion
-                        </span>
-
-                        <h3 class="text-lg font-bold mt-2 leading-snug">
-                            Bargain buy!Why Carlos Baleba
-                            is exactly what Man Utd need.
-                        </h3>
-
-                        <p class="text-gray-500 text-xs mt-3">
-                            1 hour ago
-                        </p>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             FOOTBALL / TEAM NEWS
-        ================================================== -->
-
-        <section class="py-8">
-
-            <div class="border-b border-gray-700 pb-3 mb-5">
-
-                <h2 class="text-2xl sm:text-3xl font-black uppercase">
-                    Football News
-                </h2>
-
-            </div>
-
-
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-
-
-                <!-- FEATURE -->
-
-                <article class="lg:col-span-2 relative min-h-[350px] overflow-hidden group">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=1200&q=80"
-                        alt="Football match"
-                        class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500">
-
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
-
-                    <div class="absolute bottom-0 p-6">
-
-                        <span class="text-[#e30613] text-xs font-bold uppercase">
-                            Football
-                        </span>
-
-                        <h2 class="text-2xl sm:text-3xl font-black mt-2">
-                            Everything you need to know from the world of football
-                        </h2>
-
-                    </div>
-
-                </article>
-
-
-                <!-- SMALL NEWS -->
-
-                <div class="bg-[#1b1b1b] p-5">
-
-                    <h3 class="text-xl font-black uppercase mb-4">
-                        Top Stories
-                    </h3>
-
-                    <div class="space-y-5">
-
-                        <a href="#" class="block border-b border-gray-700 pb-4">
-
-                            <span class="text-[#e30613] text-xs font-bold">
-                                TRANSFERS
-                            </span>
-
-                            <p class="font-bold mt-1">
-                                Clubs continue to reshape their squads
-                            </p>
-
-                        </a>
-
-
-                        <a href="#" class="block border-b border-gray-700 pb-4">
-
-                            <span class="text-[#e30613] text-xs font-bold">
-                                PREMIER LEAGUE
-                            </span>
-
-                            <p class="font-bold mt-1">
-                                New campaign set to begin
-                            </p>
-
-                        </a>
-
-
-                        <a href="#" class="block">
-
-                            <span class="text-[#e30613] text-xs font-bold">
-                                WORLD FOOTBALL
-                            </span>
-
-                            <p class="font-bold mt-1">
-                                The latest stories from around the world
-                            </p>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =================================================
-             VIDEO SECTION
-        ================================================== -->
-
-        <section class="py-10">
-
-            <div class="flex items-center justify-between border-b border-gray-700 pb-3 mb-5">
-
-                <h2 class="text-2xl sm:text-3xl font-black uppercase">
-                    Videos
-                </h2>
-
-                <a href="#"
-                   class="text-sm font-bold uppercase text-[#e30613]">
-                    More videos →
-                </a>
-
-            </div>
-
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-
-
-                <!-- VIDEO -->
-
-                <article class="bg-[#1b1b1b]">
-
-                    <div class="relative aspect-video bg-black">
-
-                        <!-- Replace this with your own video file -->
-                        <video
-                            controls
-                            poster="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=900&q=80"
+                            src="image.png .jp.28.jpg"
+                            alt="Football features story"
                             class="w-full h-full object-cover">
 
-                            <source src="assets/videos/football.mp4" type="video/mp4">
-
-                            Your browser does not support video playback.
-
-                        </video>
-
                     </div>
 
-                    <div class="p-4">
+                    <div class="p-5">
 
-                        <span class="text-[#e30613] text-xs font-bold uppercase">
-                            Video
-                        </span>
+                        <p class="text-xs font-bold text-gray-300 mb-5">
+                            FEATURES
+                        </p>
 
-                        <h3 class="font-bold text-lg mt-2">
-                            The latest football stories and highlights
+                        <h3 class="text-xl font-bold leading-tight">
+                            From football stardom to prison -
+                            The outlandish story of Quincy Promes
                         </h3>
+
+                        <div class="flex gap-4 text-xs text-gray-400 mt-6">
+
+                            <span>◷ Aug 21, 2026</span>
+                            <span>▢ 5</span>
+
+                        </div>
 
                     </div>
 
                 </article>
 
 
-                <!-- VIDEO THUMBNAIL -->
 
-                <article class="bg-[#1b1b1b]">
+                <!-- CARD 2 -->
 
-                    <div class="relative aspect-video overflow-hidden">
+                <article class="bg-[#303033] overflow-hidden">
+
+                    <div class="h-52">
 
                         <img
-                            src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=900&q=80"
-                            alt="Football vidss
+                            src="liv.webp"
+                            alt="Liverpool season preview"
+                            class="w-full h-full object-cover">
+
+                    </div>
+
+                    <div class="p-5">
+
+                        <p class="text-xs font-bold text-gray-300 mb-5">
+                            ANALYSIS
+                        </p>
+
+                        <h3 class="text-xl font-bold leading-tight">
+                            Liverpool season preview:
+                            No trophy but Iraola will get Reds firing
+                        </h3>
+
+                        <div class="flex gap-4 text-xs text-gray-400 mt-6">
+
+                            <span>◷ 6h</span>
+                            <span>▢ 0</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 3 -->
+
+                <article class="bg-[#303033] overflow-hidden">
+
+                    <div class="h-52">
+
+                        <img
+                            src="mancity1.webp"
+                            alt="Manchester City season preview"
+                            class="w-full h-full object-cover">
+
+                    </div>
+
+                    <div class="p-5">
+
+                        <p class="text-xs font-bold text-gray-300 mb-5">
+                            ANALYSIS
+                        </p>
+
+                        <h3 class="text-xl font-bold leading-tight">
+                            Man City season preview:
+                            Haaland under more pressure than ever
+                        </h3>
+
+                        <div class="flex gap-4 text-xs text-gray-400 mt-6">
+
+                            <span>◷ 5h</span>
+                            <span>▢ 0</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 4 -->
+
+                <article class="bg-[#303033] overflow-hidden">
+
+                    <div class="h-52">
+
+                        <img
+                            src=""
+                            alt="Mbappe Nike boot deals"
+                            class="w-full h-full object-cover">
+
+                    </div>
+
+                    <div class="p-5">
+
+                        <p class="text-xs font-bold text-gray-300 mb-5">
+                            CULTURE
+                        </p>
+
+                        <h3 class="text-xl font-bold leading-tight">
+                            Mbappe's Nike split signals
+                            seismic shift for boot deals
+                        </h3>
+
+                        <div class="flex gap-4 text-xs text-gray-400 mt-6">
+
+                            <span>◷ 6h</span>
+                            <span>▢ 0</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 5 -->
+
+                <article class="bg-[#303033] overflow-hidden">
+
+                    <div class="h-52">
+
+                        <img
+                            src=""
+                            alt="Football stars club ownership"
+                            class="w-full h-full object-cover">
+
+                    </div>
+
+                    <div class="p-5">
+
+                        <p class="text-xs font-bold text-gray-300 mb-5">
+                            ANALYSIS
+                        </p>
+
+                        <h3 class="text-xl font-bold leading-tight">
+                            How football's biggest stars are
+                            turning to club ownership models
+                        </h3>
+
+                        <div class="flex gap-4 text-xs text-gray-400 mt-6">
+
+                            <span>◷ 5h</span>
+                            <span>▢ 1</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CARD 6 -->
+
+                <article class="bg-[#303033] overflow-hidden">
+
+                    <div class="h-52">
+
+                        <img
+                            src=""
+                            alt=""
+                            class="w-full h-full object-cover">
+
+                    </div>
+
+                    <div class="p-5">
+
+                        <p class="text-xs font-bold text-gray-300 mb-5">
+                            
+                        </p>
+
+                    
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     TEAM SUMMARIES
+====================================================== -->
+
+<section class="max-w-[1500px] mx-auto px-4 py-10">
+
+    <!-- HEADER -->
+
+    <div class="flex items-center justify-between mb-6">
+
+        <div>
+
+            <div class="flex items-center gap-3">
+
+                <h2 class="text-3xl sm:text-4xl font-black">
+                    TEAM SUMMARIES
+                </h2>
+
+                <span class="hidden sm:block text-sm text-gray-400">
+                    Generated by GOAL
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ARROW BUTTONS -->
+
+        <div class="flex gap-2">
+
+            <button
+                onclick="document.getElementById('teamSlider').scrollBy({
+                    left: -350,
+                    behavior: 'smooth'
+                })"
+                aria-label="Previous teams"
+                class="w-10 h-10 rounded-full
+                       bg-[#292929]
+                       flex items-center justify-center
+                       hover:bg-[#444444]">
+
+                ‹
+
+            </button>
+
+
+            <button
+                onclick="document.getElementById('teamSlider').scrollBy({
+                    left: 350,
+                    behavior: 'smooth'
+                })"
+                aria-label="Next teams"
+                class="w-10 h-10 rounded-full
+                       bg-[#292929]
+                       flex items-center justify-center
+                       hover:bg-[#444444]">
+
+                ›
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ==========================================
+         HORIZONTAL TEAM CARDS
+    =========================================== -->
+
+    <div
+        id="teamSlider"
+        class="flex gap-4 overflow-x-auto
+               scroll-smooth
+               snap-x snap-mandatory
+               pb-4
+               [scrollbar-width:none]
+               [-ms-overflow-style:none]">
+
+
+        <!-- TEAM 1 -->
+
+        <article
+            class="min-w-[280px] sm:min-w-[310px]
+                   lg:min-w-[320px]
+                   h-[410px]
+                   rounded-2xl
+                   overflow-hidden
+                   relative
+                   snap-start
+                   bg-[#252525]">
+
+            <img
+                src="barca1.webp"
+                alt="Barcelona team summary"
+                class="absolute inset-0 w-full h-full object-cover">
+
+            <div
+                class="absolute inset-0
+                       bg-gradient-to-t
+                       from-black
+                       via-black/60
+                       to-transparent">
+            </div>
+
+
+            <div class="absolute top-5 left-5">
+
+                <h3 class="font-bold text-lg">
+                    ⚽ Barcelona
+                </h3>
+
+            </div>
+
+
+            <div class="absolute bottom-5 left-5 right-5">
+
+                <p class="text-sm leading-relaxed mb-5">
+                    Barcelona have signed Rodri from Man City
+                    and face Elche on Sunday in their La Liga
+                    opener, while the club's striker search
+                    continues after a €100m bid for Julian Alvarez
+                    was rejected.
+                </p>
+
+                <button
+                    class="w-full border border-gray-400
+                           rounded-full py-2
+                           font-semibold
+                           hover:bg-white
+                           hover:text-black">
+
+                    View more
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- TEAM 2 -->
+
+        <article
+            class="min-w-[280px] sm:min-w-[310px]
+                   lg:min-w-[320px]
+                   h-[410px]
+                   rounded-2xl
+                   overflow-hidden
+                   relative
+                   snap-start
+                   bg-[#252525]">
+
+            <img
+                src="real1.webp"
+                alt="Real Madrid team summary"
+                class="absolute inset-0 w-full h-full object-cover">
+
+            <div
+                class="absolute inset-0
+                       bg-gradient-to-t
+                       from-black
+                       via-black/60
+                       to-transparent">
+            </div>
+
+
+            <div class="absolute top-5 left-5">
+
+                <h3 class="font-bold text-lg">
+                    ⚽ Real Madrid
+                </h3>
+
+            </div>
+
+
+            <div class="absolute bottom-5 left-5 right-5">
+
+                <p class="text-sm leading-relaxed mb-5">
+                    Real Madrid open their La Liga campaign
+                    at Espanyol today, carrying strong pre-season
+                    form and a heavily rebuilt squad under Jose
+                    Mourinho, though a lengthy injury list adds
+                    pressure from the start.
+                </p>
+
+                <button
+                    class="w-full border border-gray-400
+                           rounded-full py-2
+                           font-semibold
+                           hover:bg-white
+                           hover:text-black">
+
+                    View more
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- TEAM 3 -->
+
+        <article
+            class="min-w-[280px] sm:min-w-[310px]
+                   lg:min-w-[320px]
+                   h-[410px]
+                   rounded-2xl
+                   overflow-hidden
+                   relative
+                   snap-start
+                   bg-[#252525]">
+
+            <img
+                src="man u.webp"
+                alt="Manchester United team summary"
+                class="absolute inset-0 w-full h-full object-cover">
+
+            <div
+                class="absolute inset-0
+                       bg-gradient-to-t
+                       from-black
+                       via-black/60
+                       to-transparent">
+            </div>
+
+
+            <div class="absolute top-5 left-5">
+
+                <h3 class="font-bold text-lg">
+                    ⚽ Manchester United
+                </h3>
+
+            </div>
+
+
+            <div class="absolute bottom-5 left-5 right-5">
+
+                <p class="text-sm leading-relaxed mb-5">
+                    Man Utd begin their Premier League campaign
+                    with a difficult opening fixture as new
+                    signings make their debuts.
+                </p>
+
+                <button
+                    class="w-full border border-gray-400
+                           rounded-full py-2
+                           font-semibold
+                           hover:bg-white
+                           hover:text-black">
+
+                    View more
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- TEAM 4 -->
+
+        <article
+            class="min-w-[280px] sm:min-w-[310px]
+                   lg:min-w-[320px]
+                   h-[410px]
+                   rounded-2xl
+                   overflow-hidden
+                   relative
+                   snap-start
+                   bg-[#252525]">
+
+            <img
+                src="liv.webp"
+                alt="Liverpool team summary"
+                class="absolute inset-0 w-full h-full object-cover">
+
+            <div
+                class="absolute inset-0
+                       bg-gradient-to-t
+                       from-black
+                       via-black/60
+                       to-transparent">
+            </div>
+
+
+            <div class="absolute top-5 left-5">
+
+                <h3 class="font-bold text-lg">
+                    ⚽ Liverpool
+                </h3>
+
+            </div>
+
+
+            <div class="absolute bottom-5 left-5 right-5">
+
+                <p class="text-sm leading-relaxed mb-5">
+                    Liverpool head into their Premier League
+                    opener with key transfer targets proving
+                    difficult to land.
+                </p>
+
+                <button
+                    class="w-full border border-gray-400
+                           rounded-full py-2
+                           font-semibold
+                           hover:bg-white
+                           hover:text-black">
+
+                    View more
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- TEAM 5 -->
+
+        <article
+            class="min-w-[280px] sm:min-w-[310px]
+                   lg:min-w-[320px]
+                   h-[410px]
+                   rounded-2xl
+                   overflow-hidden
+                   relative
+                   snap-start
+                   bg-[#252525]">
+
+            <img
+                src="image.png .jp.5.webp"
+                alt="Arsenal team summary"
+                class="absolute inset-0 w-full h-full object-cover">
+
+            <div
+                class="absolute inset-0
+                       bg-gradient-to-t
+                       from-black
+                       via-black/60
+                       to-transparent">
+            </div>
+
+
+            <div class="absolute top-5 left-5">
+
+                <h3 class="font-bold text-lg">
+                    ⚽ Arsenal
+                </h3>
+
+            </div>
+
+
+            <div class="absolute bottom-5 left-5 right-5">
+
+                <p class="text-sm leading-relaxed mb-5">
+                    Arsenal opened their title defence with
+                    a commanding win, but questions remain
+                    around the squad and key attacking options.
+                </p>
+
+                <button
+                    class="w-full border border-gray-400
+                           rounded-full py-2
+                           font-semibold
+                           hover:bg-white
+                           hover:text-black">
+
+                    View more
+
+                </button>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- TEAM 6 -->
+
+        <article
+            class="min-w-[280px] sm:min-w-[310px]
+                   lg:min-w-[320px]

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YourBank Login</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-[#111827] text-white">
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="h-24 px-8 md:px-12 flex items-center justify-between">
+
+        <!-- YOURBANK LOGO -->
+        <div class="flex items-center gap-2">
+
+            <div class="w-8 h-8 bg-[#dfff4f]
+                        rounded-md rotate-45
+                        flex items-center justify-center">
+
+                <div class="w-5 h-5 border-4 border-[#111827]"></div>
+
+            </div>
+
+            <span class="text-xl font-bold">
+                YourBank
+            </span>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+
+            <a href="#" class="hover:text-[#dfff4f]">
+                Home
+            </a>
+
+            <a href="#" class="hover:text-[#dfff4f]">
+                Careers
+            </a>
+
+            <a href="#" class="hover:text-[#dfff4f]">
+                About
+            </a>
+
+            <a href="#" class="hover:text-[#dfff4f]">
+                Security
+            </a>
+
+        </div>
+
+
+        <!-- RIGHT NAVIGATION -->
+        <div class="flex items-center gap-5">
+
+            <a href="#" class="text-sm">
+                Sign Up
+            </a>
+
+            <button
+                class="bg-[#dfff4f]
+                       text-black
+                       px-6 py-3
+                       rounded-full
+                       text-sm
+                       font-medium">
+
+                Login
+
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN PAGE ================= -->
+
+    <main class="relative min-h-[calc(100vh-96px)]
+                overflow-hidden">
+
+
+        <!-- ================= BACKGROUND DESIGN ================= -->
+
+        <!-- Large left circle -->
+        <div class="absolute
+                    -left-72
+                    top-20
+                    w-[650px]
+                    h-[650px]
+                    rounded-full
+                    border border-white/[0.04]">
+        </div>
+
+
+        <!-- Second left circle -->
+        <div class="absolute
+                    -left-48
+                    top-44
+                    w-[500px]
+                    h-[500px]
+                    rounded-full
+                    border border-white/[0.04]">
+        </div>
+
+
+        <!-- Right circle -->
+        <div class="absolute
+                    -right-48
+                    top-32
+                    w-[600px]
+                    h-[600px]
+                    rounded-full
+                    border border-white/[0.04]">
+        </div>
+
+
+        <!-- ================= DOTTED PATTERN ================= -->
+
+        <div class="absolute
+                    right-[9%]
+                    top-[18%]
+                    opacity-30">
+
+            <div class="grid grid-cols-12 gap-2">
+
+                <!-- Row 1 -->
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+
+                <!-- Row 2 -->
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+
+                <!-- Row 3 -->
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+
+                <!-- Row 4 -->
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+                <span class="w-1 h-1 bg-white rounded-full"></span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= CENTER VERTICAL LINE ================= -->
+
+        <div class="absolute
+                    left-1/2
+                    top-0
+                    bottom-0
+                    w-[2px]
+                    bg-white/70
+                    -translate-x-1/2">
+        </div>
+
+
+        <!-- ================= LOGIN SECTION ================= -->
+
+        <section class="relative z-10
+                        min-h-[calc(100vh-96px)]
+                        flex justify-center
+                        pt-24">
+
+            <div class="w-full max-w-[720px]
+                        px-6
+                        text-center">
+
+
+                <!-- TITLE -->
+
+                <h1 class="text-5xl
+                           md:text-6xl
+                           font-bold
+                           text-[#dfff4f]
+                           mb-4">
+
+                    Login
+
+                </h1>
+
+
+                <!-- DESCRIPTION -->
+
+                <p class="text-gray-300
+                          text-sm md:text-base
+                          mb-12">
+
+                    Welcome back! Please log in to access your account.
+
+                </p>
+
+
+                <!-- ================= FORM ================= -->
+
+                <form>
+
+
+                    <!-- EMAIL + PASSWORD -->
+
+                    <div class="grid grid-cols-1 md:grid-cols-2
+                                gap-6 mb-8">
+
+
+                        <!-- EMAIL -->
+
+                        <input
+                            type="email"
+                            placeholder="Enter your Email"
+                            class="w-full
+                                   h-16
+                                   px-7
+                                   rounded-full
+                                   bg-white/[0.02]
+                                   border
+                                   border-white/20
+                                   outline-none
+                                   text-white
+                                   placeholder-gray-300
+                                   focus:border-[#dfff4f]">
+
+
+                        <!-- PASSWORD -->
+
+                        <div class="relative">
+
+                            <input
+                                type="password"
+                                placeholder="Enter your Password"
+                                class="w-full
+                                       h-16
+                                       px-7
+                                       pr-14
+                                       rounded-full
+                                       bg-white/[0.02]
+                                       border
+                                       border-white/20
+                                       outline-none
+                                       text-white
+                                       placeholder-gray-300
+                                       focus:border-[#dfff4f]">
+
+                            <!-- Eye -->
+                            <span class="absolute
+                                         right-6
+                                         top-1/2
+                                         -translate-y-1/2
+                                         text-gray-300">
+
+                                ◉
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FORGOT PASSWORD -->
+
+                    <div class="mb-7">
+
+                        <a href="#"
+                           class="text-sm
+                                  underline
+                                  hover:text-[#dfff4f]">
+
+                            Forgot Password?
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- LOGIN BUTTON -->
+
+                    <button
+                        type="submit"
+                        class="w-full
+                               h-16
+                               rounded-full
+                               bg-[#dfff4f]
+                               text-black
+                               font-semibold
+                               hover:bg-[#ccef3d]
+                               transition">
+
+                        Login
+
+                    </button>
+
+
+                    <!-- SIGN UP BUTTON -->
+
+                    <button
+                        type="button"
+                        class="w-full
+                               h-16
+                               mt-4
+                               rounded-full
+                               bg-white/[0.04]
+                               border
+                               border-white/10
+                               text-white
+                               font-semibold
+                               hover:bg-white/10">
+
+                        Sign Up
+
+                    </button>
+
+
+                    <!-- ================= OR CONTINUE ================= -->
+
+                    <div class="flex items-center
+                                gap-5
+                                mt-8">
+
+                        <div class="flex-1
+                                    h-px
+                                    bg-white/20">
+                        </div>
+
+                        <span class="text-gray-300
+                                     text-sm
+                                     whitespace-nowrap">
+
+                            Or Continue with
+
+                        </span>
+
+                        <div class="flex-1
+                                    h-px
+                                    bg-white/20">
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= SOCIAL ICONS ================= -->
+
+                    <div class="flex justify-center
+                                items-center
+                                gap-10
+                                mt-7">
+
+                        <!-- Google -->
+                        <button
+                            type="button"
+                            class="text-2xl
+                                   font-bold
+                                   hover:text-[#dfff4f]">
+
+                            G
+
+                        </button>
+
+
+                        <!-- Facebook -->
+                        <button
+                            type="button"
+                            class="text-2xl
+                                   font-bold
+                                   hover:text-[#dfff4f]">
+
+                            f
+
+                        </button>
+
+
+                        <!-- Apple -->
+                        <button
+                            type="button"
+                            class="text-2xl
+                                   hover:text-[#dfff4f]">
+
+                            ●
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
+

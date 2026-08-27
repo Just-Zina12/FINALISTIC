@@ -113,7 +113,7 @@
 
 
 
-        <!-- ==========================================
+       <!-- ==========================================
              NEWS CARDS
         =========================================== -->
 
@@ -343,7 +343,6 @@
 </section>
 
 
-
 <!-- =====================================================
      TEAM SUMMARIES
 ====================================================== -->
@@ -472,13 +471,12 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                    <a href="barcelona.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+           </a>
 
                 </button>
 
@@ -534,13 +532,12 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                 <a href="real-madrid.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+</a>
 
                 </button>
 
@@ -594,13 +591,12 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                 <a href="manchester united.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+</a>
 
                 </button>
 
@@ -654,13 +650,12 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                    <a href="Liverpool.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+</a>
 
                 </button>
 
@@ -714,22 +709,18 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                    <a href="arsenal.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+</a>
 
                 </button>
 
             </div>
 
         </article>
-     
-
-
 
         <!-- TEAM 6 -->
 
@@ -777,13 +768,12 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                    <a href="mancity.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+</a>
 
                 </button>
 
@@ -837,13 +827,12 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                    <a href="chealsea.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+</a>
 
                 </button>
 
@@ -897,13 +886,12 @@
                 </p>
 
                 <button
-                    class="w-full border border-gray-400
-                           rounded-full py-2
-                           font-semibold
-                           hover:bg-white
-                           hover:text-black">
-
-                    View more
+                   <a href="Totteham.html"
+   class="w-full border border-gray-400 rounded-full py-2
+          font-semibold hover:bg-white hover:text-black
+          flex items-center justify-center">
+    View more
+</a>
 
                 </button>
 
@@ -1134,6 +1122,538 @@
         </div>
 
     </section>
+
+    <!-- =====================================================
+     FRONT THREE
+====================================================== -->
+
+<section class="w-full bg-[#111111] text-white px-4 sm:px-8 lg:px-16 py-10">
+
+    <!-- HEADER -->
+    <div class="flex items-center justify-between mb-6">
+
+        <!-- FRONT THREE LOGO / TITLE -->
+        <h2
+            class="text-2xl sm:text-3xl font-black
+                   italic leading-none">
+            <span class="text-[#a6d900]">FRONT</span>
+            <br>
+            <span class="text-[#a6d900]">THREE</span>
+        </h2>
+
+
+        <!-- ARROWS -->
+        <div class="flex gap-3">
+
+            <button
+                onclick="document.getElementById('frontThreeSlider').scrollBy({
+                    left: -500,
+                    behavior: 'smooth'
+                })"
+                class="w-10 h-10 rounded-full
+                       bg-gray-200 text-gray-800
+                       flex items-center justify-center
+                       text-2xl">
+                ‹
+            </button>
+
+            <button
+                onclick="document.getElementById('frontThreeSlider').scrollBy({
+                    left: 500,
+                    behavior: 'smooth'
+                })"
+                class="w-10 h-10 rounded-full
+                       bg-gray-200 text-gray-800
+                       flex items-center justify-center
+                       text-2xl">
+                ›
+            </button>
+
+        </div>
+
+    </div>
+
+
+        <!-- FRONT THREE SLIDER -->
+    <div
+        id="frontThreeSlider"
+        class="flex gap-4 overflow-x-auto scroll-smooth
+               pb-5
+               [scrollbar-width:none]
+               [-ms-overflow-style:none]">
+
+
+        <!-- VIDEO 1 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src="video/WhatsApp Video 2026-08-25 at 1.05.56 PM (1).mp4"
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                SPOT THE FAKE LIVERPOOL PLAYER 😂
+                #football #soccer #shorts
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 2 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                THIS CLUB HAS THE BEST FANS IN
+                THE PREMIER LEAGUE 🔥
+                #football
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 3 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                WE PREDICTED THE PREMIER LEAGUE
+                TOP 5 👀
+                #football #soccer
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 4 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                FOOTBALL HORSERACE:
+                THE BIGGEST CLUB IN ENGLAND
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 5 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                TRUE OR FALSE:
+                IMPOSSIBLE EDITION 🥶
+                #football #soccer #shorts
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 6 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                PREDICTING EVERY WINNER
+                OF TOP 5 LEAGUES 👀
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 7 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                ABOUT THE M25
+                #football #soccer
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 8 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                NAME 2 CLUBS 1 PLAYER
+                #football #shorts
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 9 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                THIS IS THE WORST
+                INVESTMENT YOU'LL MAKE
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 10 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                $20 TO BUILD THE
+                ULTIMATE 5-A-SIDE
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 11 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                THIS PLAYER WILL WIN
+                THE 2026 BALLON D'OR
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 12 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                DANNY WELBECK
+                CAREER PATH CHALLENGE
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 13 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                MAN CITY LEAGUE TABLE
+                CHALLENGE
+            </p>
+
+        </article>
+
+
+        <!-- VIDEO 14 -->
+        <article class="flex-shrink-0 w-[245px] sm:w-[270px]">
+
+            <div class="rounded-lg overflow-hidden bg-[#222222]">
+
+                <video
+                    src=""
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+                </video>
+
+            </div>
+
+            <p class="mt-3 text-base font-semibold leading-tight">
+                PREMIER LEAGUE
+                PREDICTION
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     NXGN 2026
+====================================================== -->
+
+<section class="w-full bg-[#111111] text-white px-4 sm:px-8 lg:px-16 py-10">
+
+    <!-- TITLE -->
+    <h2 class="text-2xl sm:text-3xl font-black mb-6">
+        NXGN 2026
+    </h2>
+
+    <!-- SLIDER WRAPPER -->
+    <div class="relative">
+
+        <!-- LEFT ARROW -->
+        <button
+            onclick="document.getElementById('nxgnSlider').scrollBy({
+                left: -500,
+                behavior: 'smooth'
+            })"
+            class="absolute left-2 top-1/2 -translate-y-1/2 z-10
+                   w-10 h-10 rounded-full
+                   bg-gray-200 text-gray-800
+                   flex items-center justify-center
+                   text-2xl">
+            ‹
+        </button>
+
+        <!-- RIGHT ARROW -->
+        <button
+            onclick="document.getElementById('nxgnSlider').scrollBy({
+                left: 500,
+                behavior: 'smooth'
+            })"
+            class="absolute right-2 top-1/2 -translate-y-1/2 z-10
+                   w-10 h-10 rounded-full
+                   bg-gray-200 text-gray-800
+                   flex items-center justify-center
+                   text-2xl">
+            ›
+        </button>
+
+
+        <!-- NXGN CARDS -->
+        <div
+            id="nxgnSlider"
+            class="flex gap-5 overflow-x-auto scroll-smooth
+                   pb-4
+                   [scrollbar-width:none]
+                   [-ms-overflow-style:none]">
+
+
+            <!-- NXGN 1 --->
+            <article
+                class="flex-shrink-0
+                       w-[320px] sm:w-[390px]
+                       relative
+                       overflow-hidden
+                       rounded-lg
+                       bg-[#222222]">
+
+                <image
+                    src="g3 image.png.jp.5.webp"
+                    controls
+                    class="w-full h-[390px] object-cover bg-[#222222]">
+    </image>
+
+                <div class="p-4">
+
+                    <h3 class="text-lg sm:text-xl font-bold leading-tight">
+                        NXGN 2026: Top 50 teenage
+                        wonderkids in football
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+            <!-- NXGN 2 - IMAGE -->
+            <article
+                class="flex-shrink-0
+                       w-[300px] sm:w-[320px]
+                       relative
+                       overflow-hidden
+                       rounded-lg
+                       bg-[#222222]">
+
+                <img
+                    src="g3 image.png.jp.11.webp"
+                    alt="NXGN 2026"
+                    class="w-full h-[300px] object-cover bg-[#222222]">
+
+                <div class="p-4">
+
+                    <h3 class="text-base sm:text-lg font-bold leading-tight">
+                        NXGN 2026: Top 25 teenage
+                        talents in women's football
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+            <!-- NXGN 3 - IMAGE -->
+            <article
+                class="flex-shrink-0
+                       w-[300px] sm:w-[320px]
+                       relative
+                       overflow-hidden
+                       rounded-lg
+                       bg-[#222222]">
+
+                <img
+                    src="g3 image.png.jp.4.webp"
+                    alt="Lamine Yamal and Lionel Messi"
+                    class="w-full h-[300px] object-cover bg-[#222222]">
+
+                <div class="p-4">
+
+                    <h3 class="text-base sm:text-lg font-bold leading-tight">
+                        Lamine Yamal & Lionel Messi:
+                        From baby baths to GOAT battle?
+                    </h3>
+
+                </div>
+
+            </article>
+
+
+            <!-- NXGN 4 - IMAGE -->
+            <article
+                class="flex-shrink-0
+                       w-[300px] sm:w-[320px]
+                       relative
+                       overflow-hidden
+                       rounded-lg
+                       bg-[#222222]">
+
+                <img
+                    src="g4 image.png.jp.3.webp"
+                    alt="NXGN 2026"
+                    class="w-full h-[300px] object-cover bg-[#222222]">
+
+                <div class="p-4">
+
+                    <h3 class="text-base sm:text-lg font-bold leading-tight">
+                        Making of a NXGN winner:
+                        Sydney Schertenleib
+                    </h3>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+             
+            
+                      
 
 
 
